@@ -1,0 +1,16 @@
+{% extends base.html %}
+{%block title%}首页{%end%}
+{%block css%}
+<link href="static/css/index_css/base.css" rel="stylesheet">
+<link href="static/css/index_css/index.css" rel="stylesheet">
+<link href="static/css/index_css/media.css" rel="stylesheet">
+{%end%}
+{%block script%}
+  <script src="static/js/index_js/silder.js"></script>
+{%end%}
+{%block meta%}
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+{%end%}
+{%block body%}
+{%module indexmodule()%}
+{%end%}
